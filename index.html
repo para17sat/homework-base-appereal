@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f1f0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.content h1 span {
+  color: #d88a85;
+}
+
+.content p {
+  color: #a5a5a5;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.email-form input {
+  padding: 10px;
+  font-size: 0.9rem;
+  border: 1px solid #d88a85;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+}
+
+.email-form button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #d88a85;
+  color: #fff;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>WE'RE <br><span>COMING SOON</span></h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form action="#" class="email-form">
+        <input type="email" placeholder="Email Address" required>
+        <button type="submit">&#10140;</button>
+      </form>
+    </div>
+    <div class="image">
+      <img src="C:\Users\Parasat\Desktop\f\hero-mobile.jpg" alt="Fashion Model">
+    </div>
+  </div>
+</body>
+</html>
